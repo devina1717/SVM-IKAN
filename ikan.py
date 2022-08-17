@@ -76,7 +76,7 @@ choice = st.sidebar.selectbox('Login', ['Admin', 'User'])
 
 # Path
 path_grafik = r"./Img/graph.jpg"
-path_ikan_jpg = r"./Img/graph.jpg"
+path_ikan_jpg = r"./Img/ket_ikan.jpg"
 path_model = r"./300px.p" #Edit / ganti file model
 
 
@@ -113,8 +113,7 @@ if choice == 'Admin':
                 st.markdown(
                     "<h1 style='text-align: center; color: black;'>Informasi Dataset dan Model</h1>", unsafe_allow_html=True)
                 st.markdown('Grafik dibawah ini menunjukkan jumlah dataset yang digunakan per kategori, untuk melakukan proses training')
-                path_grafik = r"./Img/graph.jpg"
-                imagefeed = Image.open(path_grafik)
+                st.image(path_grafik)
                 col1, col2, col3 = st.columns(3) 
                 with col1: st.write(' ') 
                 with col2: st.image(imagefeed, caption='Grafik Dataset')
