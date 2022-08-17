@@ -9,4 +9,4 @@ streamlit_option_menu
 streamlit-aggrid
 plotly-express
 scikit-learn
-opencv-python
+opencv-python-headless
