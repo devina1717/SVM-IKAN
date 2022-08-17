@@ -76,7 +76,7 @@ choice = st.sidebar.selectbox('Login', ['Admin', 'User'])
 
 # Path
 path_grafik = r"./Img/graph.jpg"
-path_ikan_jpg = r"./Img/ket_ikan.jpg"
+path_ikan_jpg = r"./Img/graph.jpg"
 path_model = r"./300px.p" #Edit / ganti file model
 
 
