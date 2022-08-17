@@ -1,0 +1,11 @@
+numpy
+pandas
+Pillow
+scikit_image
+streamlit
+streamlit_authenticator
+streamlit_cropper
+streamlit_option_menu
+streamlit-aggrid
+plotly-express
+scikit-learn

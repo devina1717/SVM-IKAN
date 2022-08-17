@@ -1,0 +1,22 @@
+.ipynb_checkpoints (check poin buat jupyternotebook)
+
+Image Dataset (Folder dataset buat training model)
+
+Img (Folder buat gambar di menu tentang)
+
+Uji (Folder data uji)
+
+150.p (MODEL yang diperoleh dari hasil training 150x150)
+app
+
+ikan2.py (File untuk deteksi mata ikan(yang untuk run di website))
+
+ImageClassification.ipynb (file jupyternotebook untuk training pembuatan model klasifikasi)
+
+img_model1.p (model dataset lama, tidak akurat)
+
+Procfile (File untuk deploy ke web)
+
+requirements.txt (Library yang digunakan dalam pembuatan sistem)
+
+setup.sh (file untuk run web di tempat deploy (hosting))
