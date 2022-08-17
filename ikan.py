@@ -113,6 +113,7 @@ if choice == 'Admin':
                 st.markdown(
                     "<h1 style='text-align: center; color: black;'>Informasi Dataset dan Model</h1>", unsafe_allow_html=True)
                 st.markdown('Grafik dibawah ini menunjukkan jumlah dataset yang digunakan per kategori, untuk melakukan proses training')
+                path_grafik = r"./Img/graph.jepg"
                 imagefeed = Image.open(path_grafik)
                 col1, col2, col3 = st.columns(3) 
                 with col1: st.write(' ') 
